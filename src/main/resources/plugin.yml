@@ -1,0 +1,14 @@
+name: DesktopInMinecraft
+version: '${project.version}'
+main: com.connexal.desktopinminecraft.DesktopInMinecraft
+api-version: 1.19
+
+commands:
+  desktopinminecraft:
+    permission: desktopinminecraft.desktopinminecraft
+    description: Desktop in Minecraft command
+
+permissions:
+  desktopinminecraft.desktopinminecraft:
+    description: Allows the player to use the Desktop in Minecraft command
+    default: true
